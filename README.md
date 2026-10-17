@@ -8,7 +8,7 @@ only; no network calls and no API calls.
 Used on: my own resume, in a fuller private version (five PDF extractors and a local-model semantic
 match), on 53 public job posts: parse score 85.6% → 100%.
 
-Author: Kamal Mehta
+Author: Kamal Mehta · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
 ![How it works, step by step](docs/how-it-works.svg)
 
