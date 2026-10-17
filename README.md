@@ -5,8 +5,9 @@ coverage and keyword placement against job posts, keeps a training / held-out sp
 a separation proof, and holds a fixed recruiter-judge rubric with score aggregation. Python standard library
 only; no network calls and no API calls.
 
-Used on: my own resume, in a fuller private version (five PDF extractors and a local-model semantic
-match), on 53 public job posts: parse score 85.6% → 100%.
+Used on: my own resume, in a fuller private version (four PDF extractors plus a port of OpenResume's
+parser, and a local-model semantic match), on 53 public job posts split by company into 31 training and
+22 held-out posts: parse score 85.6% → 100%.
 
 Author: Kamal Mehta · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
