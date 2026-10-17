@@ -1,0 +1,16 @@
+ID: ex-103
+COMPANY: Copperline Logistics
+TITLE: Streaming Data Engineer
+NOTE: Invented example post, written for this repository.
+
+Copperline Logistics tracks trucks and parcels across a regional network. Every scan and GPS ping becomes an
+event, and dispatchers need those events on their screens within seconds.
+
+In this role you will build real-time pipelines on Apache Kafka and Apache Flink, written in Java or Scala.
+You will run them on Kubernetes, keep them inside their SLAs, and join the on-call rotation that answers when a
+stream stalls at night.
+
+You should have 5+ years of software or data engineering, with at least two years on streaming systems.
+
+Bonus points
+Spark for the nightly reconciliation jobs. Grafana dashboards for the dispatch floor.

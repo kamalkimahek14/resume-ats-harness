@@ -1,0 +1,20 @@
+ID: ex-102
+COMPANY: Larkspur Health Data
+TITLE: Senior Data Engineer
+NOTE: Invented example post, written for this repository.
+
+Larkspur Health Data helps clinics compare outcomes across sites. Patient records arrive from many systems and
+must be cleaned, linked and protected before any analyst can query them.
+
+Responsibilities
+You will own our Snowflake warehouse and the dbt project that builds it. You will write data quality tests that
+stop a bad feed at the door, document lineage for every table, and work with our privacy officer so that personal
+data and HIPAA rules are respected at each step. Most of the tooling is in Python.
+
+Requirements
+6+ years of data engineering, at least two of them with dbt and Snowflake.
+Deep knowledge of data governance, access control and handling PII.
+A bachelor's degree in a quantitative field.
+
+Preferred
+Azure experience. Kubernetes for running internal services.

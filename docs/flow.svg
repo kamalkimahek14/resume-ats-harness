@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 590" width="1000" height="590" role="img" aria-labelledby="title desc">
+<title id="title">resume-ats-harness flow</title>
+<desc id="desc">Resume is parsed like an ATS and matched against job posts split by company into train and held-out sets with a separation proof; a fixed recruiter rubric adds judge scores.</desc>
+<style>
+.t{fill:#e6edf3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:15px;font-weight:600}
+.m{fill:#9da7b3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:12.5px}
+.h{fill:#e6edf3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:20px;font-weight:700}
+.b{fill:#161b22;stroke-width:2}
+.a{stroke:#9da7b3;stroke-width:2;fill:none;marker-end:url(#arr)}
+</style>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#9da7b3"/></marker></defs>
+<rect width="1000" height="590" rx="14" fill="#0d1117"/>
+<text class="h" x="30" y="44" text-anchor="start">resume-ats-harness: flow</text>
+<g class=""><rect class="b" x="30" y="90" width="200" height="80" rx="10" stroke="#58a6ff"/>
+<text class="t" x="130.0" y="126.0" text-anchor="middle">Resume</text>
+<text class="m" x="130.0" y="145.0" text-anchor="middle">.txt · .docx · .pdf*</text></g>
+<g class=""><rect class="b" x="290" y="90" width="230" height="80" rx="10" stroke="#58a6ff"/>
+<text class="t" x="405.0" y="126.0" text-anchor="middle">ATS-style parse</text>
+<text class="m" x="405.0" y="145.0" text-anchor="middle">sections · jobs · dates</text></g>
+<path class="a" d="M230,130 L288,130"/>
+<g class=""><rect class="b" x="30" y="250" width="200" height="80" rx="10" stroke="#d29922"/>
+<text class="t" x="130.0" y="286.0" text-anchor="middle">Job posts</text>
+<text class="m" x="130.0" y="305.0" text-anchor="middle">you fetch them yourself</text></g>
+<g class=""><rect class="b" x="290" y="250" width="230" height="80" rx="10" stroke="#d29922"/>
+<text class="t" x="405.0" y="286.0" text-anchor="middle">Split by company</text>
+<text class="m" x="405.0" y="305.0" text-anchor="middle">train | held-out</text></g>
+<path class="a" d="M230,290 L288,290"/>
+<g class=""><rect class="b" x="580" y="250" width="230" height="80" rx="10" stroke="#f85149"/>
+<text class="t" x="695.0" y="277.0" text-anchor="middle">Separation proof</text>
+<text class="m" x="695.0" y="296.0" text-anchor="middle">no shared company or post</text>
+<text class="m" x="695.0" y="313.0" text-anchor="middle">8-word overlap below limit</text></g>
+<path class="a" d="M520,290 L578,290"/>
+<g class=""><rect class="b" x="580" y="90" width="230" height="80" rx="10" stroke="#3fb950"/>
+<text class="t" x="695.0" y="117.0" text-anchor="middle">Match per post</text>
+<text class="m" x="695.0" y="136.0" text-anchor="middle">coverage · placement · title</text>
+<text class="m" x="695.0" y="153.0" text-anchor="middle">years · education</text></g>
+<path class="a" d="M520,130 L578,130"/>
+<path class="a" d="M695,250 L695,172"/>
+<g class=""><rect class="b" x="870" y="90" width="100" height="240" rx="10" stroke="#3fb950"/>
+<text class="t" x="920.0" y="188.0" text-anchor="middle">Report</text>
+<text class="m" x="920.0" y="207.0" text-anchor="middle">train vs</text>
+<text class="m" x="920.0" y="224.0" text-anchor="middle">held-out</text>
+<text class="m" x="920.0" y="241.0" text-anchor="middle">means</text></g>
+<path class="a" d="M810,130 L868,130"/>
+<g class=""><rect class="b" x="290" y="410" width="230" height="80" rx="10" stroke="#bc8cff"/>
+<text class="t" x="405.0" y="437.0" text-anchor="middle">Recruiter rubric</text>
+<text class="m" x="405.0" y="456.0" text-anchor="middle">4 criteria, fixed</text>
+<text class="m" x="405.0" y="473.0" text-anchor="middle">before round 1</text></g>
+<g class=""><rect class="b" x="580" y="410" width="230" height="80" rx="10" stroke="#bc8cff"/>
+<text class="t" x="695.0" y="437.0" text-anchor="middle">Judge scores</text>
+<text class="m" x="695.0" y="456.0" text-anchor="middle">any judge: person or model</text>
+<text class="m" x="695.0" y="473.0" text-anchor="middle">saved as JSON</text></g>
+<path class="a" d="M520,450 L578,450"/>
+<path class="a" d="M810,450 L920,450 L920,332"/>
+<text class="m" x="30" y="540" text-anchor="start">* PDF needs the optional pypdf package; without it, export the resume to .txt.</text>
+<text class="m" x="30" y="562" text-anchor="start">Wording changes may only use train results. Held-out posts are read only by the scorer.</text>
+</svg>

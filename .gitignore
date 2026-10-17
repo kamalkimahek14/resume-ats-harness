@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# your own resume, fetched posts and judge output stay local
+local/
+posts/
+*.local.*
+round-table.md

@@ -1,0 +1,35 @@
+Jordan Avery
+Data Engineer | Analytics Engineer
+Remote | portfolio and code links on request
+
+SUMMARY
+Data engineer with 7 years across data engineering and analytics. Builds batch and streaming data pipelines on AWS
+with Python, SQL and Apache Spark, and data models that analysts trust. Works closely with analysts and product
+stakeholders, and mentors new engineers.
+
+SKILLS
+Python, SQL, Apache Spark, Apache Kafka, Apache Airflow, dbt, pandas, AWS (S3, Glue, Lambda, Kinesis),
+Snowflake, Docker, Terraform, GitHub Actions, Git, data modeling, data quality, Tableau
+
+EXPERIENCE
+Data Engineer | Riverbend Commerce | Mar 2022 – Present
+- Rebuilt the nightly order ETL as incremental dbt models on Snowflake, cutting the load window from 5 hours to 50 minutes.
+- Built a streaming pipeline with Apache Kafka and Spark Structured Streaming that feeds inventory events to the warehouse within 2 minutes.
+- Added data quality checks to 140 Airflow tasks; failed loads now page the on-call engineer before analysts see bad numbers.
+- Moved 30 Python batch jobs into Docker images deployed with Terraform and GitHub Actions.
+- Mentored two junior engineers through their first on-call rotation.
+
+Data Analyst | Kettle Hill Insurance | Jun 2019 – Feb 2022
+- Wrote SQL and pandas reports on claims data for 12 regional managers, replacing a weekly manual spreadsheet.
+- Designed a star schema for claims and policies that became the source for the Tableau dashboards.
+- Ran A/B tests on letter wording with the operations team; the chosen letter raised on-time renewals by 4%.
+
+PROJECTS
+Open data quality checks | personal project
+- Wrote a small Python library that turns a YAML file of rules into SQL checks for any warehouse.
+
+EDUCATION
+BS in Statistics | Lakemont University | Aug 2015 – May 2019
+
+CERTIFICATIONS
+AWS Certified Data Engineer – Associate | Jan 2024

@@ -1,0 +1,8 @@
+{
+  "ex-101": {"skim6": 88, "impact": 84, "credibility": 86, "relevance": 90, "missing_must_haves": [], "top_fixes": ["Name AWS inside a bullet", "Lead with the streaming pipeline", "Say which warehouse the Spark jobs fed"]},
+  "ex-102": {"skim6": 80, "impact": 82, "credibility": 85, "relevance": 66, "missing_must_haves": ["HIPAA or PII handling", "data governance"], "top_fixes": ["Show any access-control work", "Move dbt and Snowflake to the first bullet", "Drop the personal project"]},
+  "ex-103": {"skim6": 70, "impact": 80, "credibility": 84, "relevance": 52, "missing_must_haves": ["Apache Flink", "Java or Scala", "Kubernetes"], "top_fixes": ["Lead with the Kafka streaming work", "State the event latency first", "Say how on-call was handled"]},
+  "ex-104": {"skim6": 86, "impact": 83, "credibility": 87, "relevance": 88, "missing_must_haves": [], "top_fixes": ["Name Looker or the BI tool used", "Put the star schema bullet higher", "Mention metric definitions"]},
+  "ex-105": {"skim6": 62, "impact": 78, "credibility": 85, "relevance": 50, "missing_must_haves": ["Master's degree in Computer Science", "Kubernetes", "Dagster"], "top_fixes": ["Lead with Terraform and CI/CD", "Show platform users served", "Describe incident follow-ups"]},
+  "ex-106": {"skim6": 64, "impact": 80, "credibility": 85, "relevance": 61, "missing_must_haves": ["feature store", "Google Cloud"], "top_fixes": ["Show any work that fed models", "Name the A/B tests earlier", "Add BigQuery if it was used"]}
+}

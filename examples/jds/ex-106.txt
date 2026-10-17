@@ -1,0 +1,15 @@
+ID: ex-106
+COMPANY: Tallgrass Media
+TITLE: Data Engineer, Machine Learning
+NOTE: Invented example post, written for this repository.
+
+Tallgrass Media publishes podcasts and video. Our recommendation team trains machine learning models on listening
+history, and the slowest part of every project is getting features ready.
+
+You will build PySpark jobs on Google Cloud that turn raw listening logs into features, publish them to a feature
+store, and check that training and serving read the same values. BigQuery is our warehouse.
+
+We look for 4+ years of data engineering, solid Python, and some exposure to how models are trained.
+
+Nice to have
+Statistics background, for example designing A/B tests on recommendations.

@@ -1,0 +1,16 @@
+ID: ex-105
+COMPANY: Meridian Grid Software
+TITLE: Data Platform Engineer
+NOTE: Invented example post, written for this repository.
+
+Meridian Grid Software models electricity demand for utilities. The platform team gives every data scientist a
+safe, repeatable place to run jobs, from a laptop experiment to the hourly production forecast.
+
+Day to day you will write Terraform for our AWS accounts, run job runners on Kubernetes, keep CI/CD pipelines
+fast, and maintain the Dagster orchestration that schedules every forecast. Python is the main language.
+
+Must have: 5+ years in platform, infrastructure or data engineering. A Master's degree in Computer Science.
+Comfort with incident reviews and writing the follow-up actions.
+
+Pluses
+Experience with time-series databases.

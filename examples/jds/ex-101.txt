@@ -1,0 +1,23 @@
+ID: ex-101
+COMPANY: Northbeam Analytics
+TITLE: Data Engineer
+NOTE: Invented example post, written for this repository.
+
+Northbeam Analytics sells forecasting software to mid-size retailers. Our data team owns the pipelines that
+turn raw point-of-sale files into the tables our forecasting models read every morning.
+
+What you will do
+- Design and run batch pipelines in Python and SQL that load customer files into our warehouse on AWS.
+- Write Apache Spark jobs for the largest customers, where a single file can hold a billion rows.
+- Schedule and monitor work in Apache Airflow, and fix failed runs before the morning model refresh.
+- Shape clean data models for the forecasting team.
+
+What you bring
+- 4+ years building data pipelines in production.
+- Strong Python and SQL.
+- Hands-on Spark and Airflow.
+- A bachelor's degree or equivalent experience.
+
+Nice to have
+- Experience with Kafka or other event streams.
+- Terraform for the infrastructure you run.

@@ -1,0 +1,19 @@
+ID: ex-104
+COMPANY: Bluefin Retail Labs
+TITLE: Analytics Engineer
+NOTE: Invented example post, written for this repository.
+
+Bluefin Retail Labs runs experiments for online shops: price tests, page layouts, email timing. Analysts here
+spend too long rebuilding the same joins, and we want one trusted layer of models under every report.
+
+The job
+Own the dbt models between raw events and the Looker explores. Agree definitions of revenue, sessions and
+conversion with the analysts and the business partners who use them. Write clear SQL and keep tests next to it.
+Plan the dimensional model as the event volume grows.
+
+You have
+3+ years in analytics engineering or data engineering. Expert SQL and dbt. Experience with dashboards in Looker
+or a similar tool, and patience for long conversations about what a metric means.
+
+Desired
+Python for small tools and data checks.
