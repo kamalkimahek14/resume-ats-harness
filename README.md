@@ -7,9 +7,10 @@ only; no network calls and no API calls.
 
 Used on: my own resume. A fuller private version (four PDF extractors plus a port of OpenResume's
 parser, and a local-model semantic match) took the parse score across those 5 parsers from 85.6% to 100%,
-and scored the match on 53 public job posts split by company into 31 training and 22 held-out posts.
+and scored the match on 53 public job posts split by company into 31 training and 22 held-out posts: a match
+score of 85.0 on the 22 held-out posts against 84.5 on training.
 
-Author: Kamal Mehta · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
+Author: Kamal Mehta, built with AI-assisted coding to my specs · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
 ![How it works, step by step](docs/how-it-works.svg)
 
